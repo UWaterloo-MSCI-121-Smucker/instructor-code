@@ -5,8 +5,8 @@ def remove_duplicates(alist):
             unique.append(elt)            
     return unique
 
-def exists_in(given_elt,unique):
-    for elt in unique:
+def exists_in(given_elt,alist):
+    for elt in alist:
         if elt == given_elt:
             return True
     return False
